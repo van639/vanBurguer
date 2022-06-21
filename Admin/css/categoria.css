@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    height: auto;
+    width: inherit;
+    border: solid 1px #000;
+    padding: 10px; 
+} 
+
+#containerConteudoCategoria{
+    height: auto;
+    min-height: 500px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px #000;
+    padding: 10px;
+}
+
+.inserirDado{
+    height: 30px;
+    width: 350px;
+    margin-left: 150px;
+    margin-right: auto;
+    font-size: 1.2em;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.insert{
+    height: 30px;
+    width: max-content;
+    margin-left: 8px;
+}
+
+#btnSalvar{
+    background-color: green;
+    color: white;
+}
+
+#btnSalvar:hover{
+    cursor: pointer;
+}
+
+h4
+{
+    font-size: 1.9em;
+}
+
+#containerExibiDados{
+    height: auto;
+    min-height: 300px;
+    width: 750px;
+    background-color: aliceblue;
+    border: solid 1px #000;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 8px;
+}
+
+#containerExibiDados>ul>li{
+    display: inline-block;
+    border: solid 1px #000;
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+#containerDadosEopcoes{
+    min-height: 50px; 
+    height: auto;
+    width: 420px;
+/*    border: solid 1px #000;*/
+    margin-left: 42px;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#containerDadosEopcoes > .id, .nome , .opcoes{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.id{
+    height: 40px;
+    width: 200px;
+    border: solid 1px #000;
+}
+
+.nome{
+    height: 40px;
+    width: 200px;
+    border: solid 1px #000;
+}
+
+.opcoes{
+    height: 40px;
+    width: 200px;
+   /* border: solid 1px #000; */
+}
+
+.excluir, .pesquisar, .editar{
+    width: 40px;
+    height: 40px;
+/*    background-color: black;*/
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.excluir:hover, .editar:hover, .pesquisar:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}

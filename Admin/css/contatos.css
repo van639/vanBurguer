@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#containerConteudoContatos{
+    height: auto;
+    min-height: 60vh;
+    width: 1200px;
+    border: solid 1px #000;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+   
+    text-align: center;
+}
+
+h4
+{
+    font-size: 1.9em;
+    margin-top: 15px;
+}
+
+#containerConteudoContatos>ul>li{
+    display: inline-block;
+    border: solid 1px #000;
+    height: 30px;
+    width: 200px;
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+#containerDadosDeContatos{
+    min-height: 50px; 
+    height: auto;
+    width: 520px;
+/*    border: solid 1px #000;*/
+    margin-left: 42px;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#containerDadosDeContatos{
+    padding-left: 20px;
+    padding-right: 50px;
+}
+
+#containerDadosDeContatos > .id, .nome ,.contato, .email, .opcoes{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+   
+}
+
+.id{
+    height: 40px;
+    width: 200px;
+    border: solid 1px #000;
+}
+
+.nome{
+    height: 40px;
+    width: 200px;
+    border: solid 1px #000;
+}
+.contato{
+    height: 40px;
+    width: 200px;
+   border: solid 1px #000; 
+}
+.email{
+    height: 40px;
+    width: 200px;
+   border: solid 1px #000;
+   box-sizing: border-box;
+    overflow:scroll;
+   
+}
+
+.opcoes{
+    height: 40px;
+    width: 200px;
+    /* border: solid 1px #000; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.excluir{
+    width: 40px;
+    height: 40px;
+/*    background-color: black;*/
+    float: left;
+    margin-left: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.excluir:hover {
+    transform: scale(1.3);
+    transition: 1s;
+}

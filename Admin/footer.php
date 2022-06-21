@@ -1,0 +1,1 @@
+<span>Copyright &copy; 2021| Vanderson Aparecido</span>
